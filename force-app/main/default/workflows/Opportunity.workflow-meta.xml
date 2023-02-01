@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_Email_for_Amount</fullName>
+        <ccEmails>vijaykumar.rao@gmail.com</ccEmails>
+        <description>Send  Email for Amount</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>vijayrao.salesforce@playful-impala-4gyezl.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SalesNewCustomerEmail</template>
+    </alerts>
+    <tasks>
+        <fullName>Approval_Process</fullName>
+        <assignedTo>vijayrao.salesforce@playful-impala-4gyezl.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>30</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>Opportunity.CreatedDate</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>In Progress</status>
+        <subject>Approval Process</subject>
+    </tasks>
+</Workflow>

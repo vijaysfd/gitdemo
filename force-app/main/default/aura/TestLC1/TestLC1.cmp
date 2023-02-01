@@ -1,0 +1,5 @@
+<aura:component >
+	<h1>Hey I am in First Block</h1>
+    <div class ="red">This is my body</div>
+     <div class ="blue">This is my next body </div>
+</aura:component>

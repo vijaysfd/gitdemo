@@ -1,0 +1,29 @@
+<aura:component controller = "MyOpportnuityListControl" implements="flexipage:availableForAllPageTypes"  >
+     <!--Create attribute -->
+    <aura:attribute name = "lstOpportunity" type="List" />
+     <aura:attribute name = "columnsToDiplay" type="List"  />
+     <aura:attribute name = "searchKeyword" type="String" />
+	
+    <!-- Create  Handler to generate list -->
+    <aura:handler name ="init" value ="{!this}" action = "{!c.doInit}" />
+ 
+     <lightning:card    title ="Opportunity List" >  
+       	<lightning:layout>
+    		<lightning:layoutItem size ="3" padding = "around-small" >
+               <lightning:input aura:id = "searchField"
+                                label="Opportunity Name"
+                                value ="{!v.searchKeyword}"
+                                placeholder = "Search Opportunities"
+                                onchange = "{!c.searchOpportunities}"             />
+       
+        
+       <!-- Opp list diplayed in table formet with Datatable -->
+      	 <lightning:datatable  data ="{! v.lstOpportunity}"
+                             columns = "{! v.columnsToDiplay}"
+                             keyField = "testing"
+                             hideCheckboxColumn = "true" />
+                     </lightning:layoutItem>	
+       	</lightning:layout>
+      </lightning:card> 
+     
+</aura:component>

@@ -1,0 +1,11 @@
+<template>
+    <lightning-card variant="Narrow" title="Hello" icon-name="standard:account">
+        <div class="slds-m-around_small">
+            <template for:each={getAccountsdata.data} for:item="Acc" >
+               <li key={Acc.Id}>
+                    {Acc.Name}
+               </li>
+            </template>
+        </div>
+    </lightning-card> 
+</template>

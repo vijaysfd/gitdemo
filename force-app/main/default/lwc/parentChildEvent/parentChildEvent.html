@@ -1,0 +1,14 @@
+<template>
+    <lightning-card variant="Narrow" title = "Parent Component" icon-name="utility:user">
+        <div class="slds-m-around_small">
+         Count : {count} <br/>
+         Message : {msg}<br/>
+         EndValue :{endValue}
+        <c-hitest1  oncallcount={hanldeCall}></c-hitest1>
+        <c-child-With-Event  oncallchild={handleCallParam}></c-child-With-Event>
+        
+       <c-hi-Test2></c-hi-Test2>
+     <!--  <c-child-Custome-Event callcountchild={otherCall}></c-child-Custome-Event>-->
+        </div>
+    </lightning-card>  
+</template>

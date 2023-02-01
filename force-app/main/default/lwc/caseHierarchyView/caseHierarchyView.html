@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            Case Hierarchy.
+        </h2>
+
+        <!-- Expanded rows -->
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-tree-grid
+                class="lgc-example-treegrid"
+                columns={gridColumns}
+                data={gridData}
+                key-field="currentCaseId"
+                is-loading={gridLoadingState}
+                hide-checkbox-column="true"
+                ontoggle={handleRowToggle}
+            ></lightning-tree-grid>
+        </div>
+    </div>
+</template>

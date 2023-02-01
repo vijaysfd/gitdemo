@@ -1,0 +1,25 @@
+<template>
+    <lightning-card variant="Narrow" title = "Loop Test" icon-name="utility:user">
+        <div    class="slds-m-around_small">
+            <h1>This is Loop of Data</h1>
+        </div>
+        <div style = "padding:10px"  class="slds-m-around_small">
+        <Table border = "1" class="slds-table slds-table_cell-buffer slds-table_bordered" >
+            <thead>
+                <tr class="slds-line-height_reset">
+                 <th> Name  </th>
+                  <th> Age  </th>
+                  <th> Class  </th>
+                </tr>
+            </thead>
+              <template for:each={Students} for:item="stu" >
+                <tr key={stu.Id} class="slds-hint-parent">
+                    <td>{stu.Name}</td>
+                    <td>{stu.Age}</td>
+                    <td>{stu.Class}</td>
+                </tr>
+              </template> 
+        </Table>
+    </div>
+    </lightning-card>
+</template>

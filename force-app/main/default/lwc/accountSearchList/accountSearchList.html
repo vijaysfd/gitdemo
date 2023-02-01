@@ -1,0 +1,25 @@
+<template>
+    <lightning-card variant="Narrow" title="Account Records" icon-name="standard:account">
+        <div>
+          <lightning-Input type="search" placeholder="Search..."  name="accountName" class="handleChangeAccName" onchange={handleChangeAccName}></lightning-input>
+        </div>
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered" border="1" cellspacing="0" cellpadding="0" bordercolor="#ccc" style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Website</th>
+                <th>Edit</th>
+                </tr>
+                </thead>
+            <template for:each={Accounts} for:item="Account">
+                <tr key={Account.Id}>
+                    <td> {Account.Name} </td>
+                    <td>{Account.Phone} </td>
+                    <td>  <a href={Account.Website}>{Account.Website} </a></td>
+                   <td> <lightning-button variant="brand" label="Account" value={Account.Id}   onclick={handleClick} class="slds-m-left_x-small"></lightning-button> </td>
+                </tr>
+            </template>
+        </table>
+    </lightning-card>    
+</template>

@@ -1,0 +1,9 @@
+<aura:component >
+    <aura:attribute name ="First" type ="integer" default ="10"/>
+    <aura:attribute name ="Second" type ="integer" default ="15"/>
+    <aura:attribute name ="Sum" type ="integer" default ="25"/>
+        
+        {!v.Sum} 
+    <br></br>
+    <ui:button label = "Sum"/>
+</aura:component>

@@ -1,0 +1,25 @@
+<aura:component controller="AccountController" implements="flexipage:availableForAllPageTypes">
+	 <aura:attribute type="Account[]" name="acctList"/>
+    <aura:attribute name="mycolumns" type="List"/>
+    <aura:attribute name = "searcKeyword" type="String" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.fetchAcc}"/>
+     <lightning:card    title ="Account List" >  
+       	<lightning:layout>
+    		<lightning:layoutItem size ="7" padding = "around-small" > 
+                  <lightning:input aura:id = "searchField"
+                                label="Account Name"
+                              value ="{!v.searcKeyword}"
+                                placeholder = "Search Account"
+                                onchange = "{!c.searchContact}"             />
+                 
+    			<lightning:datatable data="{! v.acctList }"
+                         columns="{! v.mycolumns }"
+                         value ="{!v.searchKeyword}"
+                         keyField="id"
+               		    hideCheckboxColumn = "true" />
+          </lightning:layoutItem>          	
+       	</lightning:layout>
+      </lightning:card>                  
+                
+</aura:component>

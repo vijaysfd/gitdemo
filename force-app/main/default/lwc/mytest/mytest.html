@@ -1,0 +1,30 @@
+<template>
+    <lightning-card variant="Narrow" title="Hello" icon-name="standard:account">
+        <div class="slds-m-around_small">
+            <p>This is Parent Component</p>
+        </div>
+        <div class="slds-p-around_medium">
+            <p>This text</p>
+            <lightning-input type="text" label="Enter some text" onchange={handleChange}></lightning-input>
+        </div>
+        <div class="slds-m-around_small">
+            <p>Record Id: {recordId}</p>
+            <p>Object Name : {objectApiName}</p>
+        </div>
+        <div>
+           
+            <div >
+                <c-left-Comp chld-var ={parentVal}></c-left-Comp>
+            </div>
+            <div >
+                <c-right-Comp onbuttonclick = {handleRightClick} class="slds-m-left_x-small"></c-right-Comp>
+            </div>
+            <div> 
+                <lightning-button variant="brand" label="Change Value"  onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            </div>
+            <div> 
+             <!--  <lightning-button variant="brand" title="Call Parent Comp" label="Call Parent Comp"  onclick={handleRight} class="slds-m-left_x-small"></lightning-button> --> 
+            </div>
+        </div>
+    </lightning-card>
+</template>

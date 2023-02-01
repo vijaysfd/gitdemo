@@ -1,0 +1,43 @@
+<template>
+    <lightning-card variant="Narrow" title = "Check Box Check" icon-name="utility:user">
+        <div class="slds-m-around_small">
+            <h1>This is Check box test</h1>
+        </div>
+        <div style = "padding:10px"  class="slds-m-around_small">
+            <lightning-input type ="CheckBox" label = "Click me" onchange={handleChange}>   </lightning-input>
+                <template if:true={myChecked}>
+                  <h2 > <b>Value is Checked </b></h2> 
+                </template>
+                <template if:false={myChecked}>
+                    <h3 ><b>Value is un Checked</b> </h3> 
+                 </template>
+         </div>
+         <div class="slds-m-around_small">
+            <h1><b>Enter Contact Info </b></h1>
+        </div>
+         <div style = "padding:10px"  class="slds-m-around_small">
+             <lightning-input name = "fullName" label = "Name:" onchange = {handleInputChange}></lightning-input>
+             <lightning-input name = "email" label = "Email:" onchange = {handleInputChange}></lightning-input>
+             <lightning-input name = "phone" label = "Phone:" onchange = {handleInputChange}></lightning-input>
+        </div>
+        <div class="slds-m-around_small">
+            <h1><b> Contact Details  </b> </h1>
+        </div>
+        <div style = "padding:10px"  class="slds-p-around_medium lgc-bg" >
+            <table border = "1" width = "450">
+                <tr>
+                    <td width = "50%">Full Name :</td>
+                    <td width = "50%">{fullName}</td>
+                </tr>
+                <tr>
+                    <td width = "50%">Email :</td>
+                    <td width = "50%">{email}</td>
+                </tr>
+                <tr>
+                    <td width = "50%">Phone :</td>
+                    <td width = "50%">{phone}</td>
+                </tr>
+            </table>
+        </div> 
+        </lightning-card>
+</template>

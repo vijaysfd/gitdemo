@@ -1,0 +1,14 @@
+<aura:component controller ="ContactCotnroller">
+	 <aura:attribute name = "contact" type = "contact" default = "{'sobjectType':'Contact'}"/>
+   	 <aura:handler event ="aura:locationChange" action = "{!c.locationchange}"/>
+    
+    <div class = "details">
+    	<h1>{!v.contact.Name}</h1>
+		<h3>{!v.contact.Title}</h3>
+      	<h3>{!v.contact.Acount.Name}</h3>
+        <h3>{!v.contact.Phone}</h3>
+        <h3>{!v.contact.MobilePhoe}</h3>
+    </div>
+    
+    
+</aura:component>
