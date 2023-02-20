@@ -1,8 +1,8 @@
 public with sharing class ContactCotnroller {
 	
-    @AuraEnabled
+    @AuraEnabled(Cacheable =true)
 	 public static List<contact> searchcontacts(){
-        return [select id,name,phone from Contact limit 10];
+        return [select id,FirstName, LastName, phone,Email from Contact limit 5];
     }
      @AuraEnabled
     public static contact ContactFindbyID(string contactID) {

@@ -1,6 +1,6 @@
 import { LightningElement, track, wire,api} from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
-import getAccountListSearch from '@salesforce/apex/getAccountdata.getAccountListSearch';
+import getAccountListSearch from '@salesforce/apex/getAccountData.getAccountListSearch';
 import { refreshApex } from '@salesforce/apex';
 
 export default class AccountSearchList extends NavigationMixin( LightningElement) {

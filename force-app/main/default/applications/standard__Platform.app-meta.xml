@@ -11,4 +11,7 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>Favorite__c</tabs>
     <tabs>Beer__c</tabs>
+    <tabs>Class__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Product_Name__c</tabs>
 </CustomApplication>

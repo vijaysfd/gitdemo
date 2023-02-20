@@ -19,6 +19,9 @@
     <tabs>standard-ChangeRequest</tabs>
     <tabs>Favorite__c</tabs>
     <tabs>Beer__c</tabs>
+    <tabs>Class__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Product_Name__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -26,7 +29,16 @@
             <tab>Beer__c</tab>
         </mappings>
         <mappings>
+            <tab>Class__c</tab>
+        </mappings>
+        <mappings>
             <tab>Favorite__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Product_Name__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

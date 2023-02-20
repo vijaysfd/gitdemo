@@ -1,4 +1,5 @@
 public class CheckOppurtyLimit {
+   public static Boolean LoopCheck = False;
      public static void checkOppurtyLimitTrigger(List<Opportunity> opNew){
         Double Day_Amount=0;
         
@@ -17,7 +18,7 @@ public class CheckOppurtyLimit {
         for(Opportunity op2: opNew){
             
             Day_Amount  = Day_Amount+op2.Amount;
-            If(Day_Amount>10000)
+            If(Day_Amount>20000)
                op2.addError('You have exceeded the amount specified to you'); 
         }
         

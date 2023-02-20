@@ -182,12 +182,24 @@
     <tabs>standard-Lead</tabs>
     <tabs>Favorite__c</tabs>
     <tabs>Beer__c</tabs>
+    <tabs>Class__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Product_Name__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Beer__c</tab>
         </mappings>
         <mappings>
+            <tab>Class__c</tab>
+        </mappings>
+        <mappings>
             <tab>Favorite__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Product_Name__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

@@ -34,6 +34,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>accountSearchList</componentName>
+                <identifier>c_accountSearchList</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>accountList</componentName>
                 <identifier>c_accountList</identifier>
             </componentInstance>

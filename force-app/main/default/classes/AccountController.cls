@@ -6,7 +6,7 @@ public class AccountController {
         //Query 5 accounts
         List<Account> accList = [SELECT Id, Name, BillingState, 
                                     Website, Phone, Industry, Type from Account  
-                                    where Name   like: searchKey LIMIT 6];
+                                    where Name   like: searchKey LIMIT 5];
         //return list of accounts
         return accList;
         //Test

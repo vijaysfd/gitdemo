@@ -128,4 +128,8 @@
         <name>Beer_Explorer</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Amazon</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

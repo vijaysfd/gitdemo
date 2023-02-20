@@ -23,6 +23,9 @@
     <tabs>standard-Product2</tabs>
     <tabs>standard-Task</tabs>
     <tabs>Beer__c</tabs>
+    <tabs>Class__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Product_Name__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Energy_Consultant_UtilityBar</utilityBar>
 </CustomApplication>

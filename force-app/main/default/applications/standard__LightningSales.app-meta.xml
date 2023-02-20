@@ -27,6 +27,8 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>LWCExm</tabs>
+    <tabs>LWCAppPage</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
@@ -45,5 +47,9 @@
     <tabs>Favorite__c</tabs>
     <tabs>Energy_Audit__c</tabs>
     <tabs>Beer__c</tabs>
+    <tabs>Class__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Product_Name__c</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

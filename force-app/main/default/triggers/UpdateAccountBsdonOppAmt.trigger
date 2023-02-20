@@ -1,4 +1,33 @@
-trigger UpdateAccountBsdonOppAmt on Opportunity (after insert) {
+trigger UpdateAccountBsdonOppAmt on Opportunity (after insert, after update) {
+    
+    
+    if(Trigger.isInsert || trigger.isUpdate ){
+        Set<Id> accIds = new Set<Id>();
+        for(Opportunity opp : trigger.new){
+            if(opp.Amount != null){
+                accIds.add(opp.AccountId);
+            }
+        }
+        List<Account> acc = new List<Account>();
+        List<Account> accOpp = [Select id, name, AnnualRevenue,(select Id, AccountId, Amount from Opportunities) from Account where Id in : accIds ];
+        for(Account acP : accOpp)   {
+            acP.AnnualRevenue = 0;
+            for(Opportunity opp : acP.Opportunities){
+                if(opp.amount != null){
+                acP.AnnualRevenue = acP.AnnualRevenue+opp.Amount ;
+               }
+            }
+            acc.add(acP);
+        }
+        if(acc != null){
+            update acc;
+        }
+        
+    }
+    
+    
+    /*
+     //Commented this to change logic
     if(Trigger.isInsert ){
         if(Trigger.isAfter){
             //AnnualRevenue
@@ -23,5 +52,5 @@ trigger UpdateAccountBsdonOppAmt on Opportunity (after insert) {
            	 Update accToBeUpdated;
         }
     }
-
+*/
 }

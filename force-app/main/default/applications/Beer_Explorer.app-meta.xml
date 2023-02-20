@@ -16,6 +16,9 @@
     <tabs>Beer__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Class__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Product_Name__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Beer_Explorer_UtilityBar</utilityBar>
 </CustomApplication>

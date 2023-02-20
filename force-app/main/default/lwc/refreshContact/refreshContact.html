@@ -1,0 +1,19 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Contact" icon-name="standard:contact">
+        <lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+       
+        <div class="slds-m-around_medium">
+            <template if:true={contacts.data}>
+                <lightning-datatable key-field="Id"
+                                     data={contacts.data} 
+                                     columns={Columns} 
+                                     onsave={handleSave}
+                                     draft-values={saveDraftValues} 
+                                     hide-checkbox-column 
+                                     show-row-number-column>
+                </lightning-datatable>
+            </template>
+        </div>
+        <p slot="footer">Card Footer</p>
+    </lightning-card>
+</template>

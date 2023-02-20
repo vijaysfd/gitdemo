@@ -2,7 +2,7 @@ import { LightningElement, wire, track } from 'lwc';
 import { deleteRecord } from 'lightning/uiRecordApi';
 import { refreshApex } from '@salesforce/apex';
 
-import getLatestAccounts from '@salesforce/apex/getAccountdata.getAccountList';
+import getLatestAccounts from '@salesforce/apex/getAccountData.getAccountList';
 const COLS = [
   { label: 'Name', fieldName: 'Name', type: 'text' },
   { label: 'Phone', fieldName: 'Phone', type: 'text' },

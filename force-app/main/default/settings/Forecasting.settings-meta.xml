@@ -239,6 +239,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -278,6 +282,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -441,6 +446,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -480,6 +489,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -647,6 +657,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -687,6 +701,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -850,6 +865,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -889,6 +908,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1056,6 +1076,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1096,6 +1120,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1259,6 +1284,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1298,6 +1327,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1465,6 +1495,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1505,6 +1539,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1668,6 +1703,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1707,6 +1746,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1874,6 +1914,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1914,6 +1958,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2077,6 +2122,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2116,6 +2165,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2283,6 +2333,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2323,6 +2377,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2486,6 +2541,10 @@
             <field>00N5i00000ANjJu</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2525,6 +2584,7 @@
             <field>00N5i00000ANjJs</field>
             <field>00N5i00000ANjJt</field>
             <field>00N5i00000ANjJu</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <globalAdjustmentsSettings>
