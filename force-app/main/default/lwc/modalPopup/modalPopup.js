@@ -11,6 +11,6 @@ export default class modalPopup extends LightningElement {
   }
   handleDialogClose() {
   
-    this.showModal = false;
+    this.showModal = false; // Added comment
   }
 }
