@@ -4,6 +4,7 @@ export default class ParentChildEvent extends LightningElement {
     count = 1;
     endValue=0;
     msg="In Parent Comp";
+    
     hanldeCall(){
         if(this.count <= 5){
             this.count = this.count+1;
